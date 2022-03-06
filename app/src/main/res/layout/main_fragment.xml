@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/loading_state"
+            layout="@layout/main_layout_state_loading" />
+
+        <include
+            android:id="@+id/loaded_state"
+            layout="@layout/main_layout_state_loaded" />
+
+        <include
+            android:id="@+id/main_empty_state"
+            layout="@layout/main_layout_state_empty" />
+
+        <include
+            android:id="@+id/main_error_state"
+            layout="@layout/main_layout_state_error" />
+
+    </ViewFlipper>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

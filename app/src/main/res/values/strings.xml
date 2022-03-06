@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">themoviedb.org</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="popularity_percent">%d%%</string>
+    <string name="sweat_emoji">&#128517;</string>
+    <string name="thinking_emoji">&#129300;</string>
+    <string name="we_have_nothing_to_show_you">We have nothing to show you</string>
+    <string name="something_went_wrong">Hmm something went wrong…</string>
+</resources>
